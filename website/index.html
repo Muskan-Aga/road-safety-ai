@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Safety: Sense &amp; Licence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Why Stricter Driving Tests Alone Can't Save Lives</h1>
+    <p id="problem"></p>
+    <small id="source"></small>
+  </header>
+
+  <main>
+    <section id="trend">
+      <h2>1. The fatality trend</h2>
+      <p id="trend-text"></p>
+      <canvas id="trendChart"></canvas>
+    </section>
+
+    <section id="compare">
+      <h2>2. India vs Vietnam vs Singapore</h2>
+      <p id="compare-text"></p>
+      <canvas id="compareChart"></canvas>
+    </section>
+
+    <section id="causes">
+      <h2>3. Causes</h2>
+      <ul>
+        <li>Drivers assume they have the right of way and expect others to compensate for their mistakes</li>
+        <li>Weak enforcement of existing rules</li>
+        <li>Tests that check knowledge but not behaviour on the road</li>
+      </ul>
+    </section>
+
+    <section id="enforcement">
+      <h2>4. The enforcement gap</h2>
+      <p id="enforcement-text"></p>
+    </section>
+
+    <section id="takeaways">
+      <h2>5. Policy takeaways</h2>
+      <p id="argument"></p>
+    </section>
+  </main>
+
+  <footer><small>Data: TOI editorial. See data/facts.json</small></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
