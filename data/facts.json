@@ -1,0 +1,11 @@
+{
+  "problem": "Why do road deaths rise despite stricter rules, and which enforcement-focused policies could reduce them?",
+  "source": "TOI editorial, 'Sense & Licence'",
+  "deaths": { "2015": 146133, "2025": 183382, "per_hour_2025": 21 },
+  "licence_test": { "current_pass_mark_pct": 60, "proposed_pass_mark_pct": 75 },
+  "fatality_rate_per_lakh": { "India": 16.2, "Vietnam": 13, "Singapore": 1.4 },
+  "vietnam_pass_mark_pct": 91,
+  "unpaid_echallans_crore": 23000,
+  "example": "A Delhi-registered BMW with 42 challans for driving without a PUC certificate",
+  "argument": "Tougher tests alone will not help; attitude change and strict enforcement are needed."
+}
