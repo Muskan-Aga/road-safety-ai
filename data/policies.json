@@ -1,0 +1,6 @@
+[
+  { "icon": "💳", "title": "E-challan recovery", "action": "Link unpaid challans to licence renewal, vehicle registration transfer and insurance renewal.", "tradeoff": "Strong lever on payment, but needs reliable data sharing across states and a fair way to contest wrong challans." },
+  { "icon": "🚫", "title": "Repeat-offender licence suspension", "action": "Suspend the licence after a set number of violations, as the 42-challan example shows is needed.", "tradeoff": "Directly targets the worst offenders, but risks disputes, livelihood impact for professional drivers and heavier court workload." },
+  { "icon": "📷", "title": "Camera and tech enforcement", "action": "Use cameras and automated detection so violations are caught without relying on police presence.", "tradeoff": "Reduces discretion and bias, but costs money, needs maintenance and raises privacy questions." },
+  { "icon": "📣", "title": "Awareness and attitude change", "action": "Run sustained campaigns on right of way, lane discipline and shared responsibility.", "tradeoff": "Addresses attitudes, but effects are slow and hard to measure, and it fails without enforcement behind it." }
+]

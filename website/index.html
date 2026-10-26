@@ -7,25 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <a href="#stats">Key numbers</a>
+    <a href="#trend">Trend</a>
+    <a href="#compare">Compare</a>
+    <a href="#causes">Causes</a>
+    <a href="#enforcement">Enforcement gap</a>
+    <a href="#policies">Policy options</a>
+  </nav>
   <header>
     <h1>Why Stricter Driving Tests Alone Can't Save Lives</h1>
     <p id="problem"></p>
     <small id="source"></small>
   </header>
-
   <main>
+    <div id="stats" class="stats"></div>
     <section id="trend">
       <h2>1. The fatality trend</h2>
       <p id="trend-text"></p>
       <canvas id="trendChart"></canvas>
     </section>
-
     <section id="compare">
       <h2>2. India vs Vietnam vs Singapore</h2>
       <p id="compare-text"></p>
       <canvas id="compareChart"></canvas>
     </section>
-
     <section id="causes">
       <h2>3. Causes</h2>
       <ul>
@@ -34,20 +40,17 @@
         <li>Tests that check knowledge but not behaviour on the road</li>
       </ul>
     </section>
-
     <section id="enforcement">
       <h2>4. The enforcement gap</h2>
       <p id="enforcement-text"></p>
     </section>
-
-    <section id="takeaways">
-      <h2>5. Policy takeaways</h2>
+    <section id="policies">
+      <h2>5. Policy options</h2>
       <p id="argument"></p>
+      <div id="policy-grid" class="policy-grid"></div>
     </section>
   </main>
-
-  <footer><small>Data: TOI editorial. See data/facts.json</small></footer>
-
+  <footer><small>Data: TOI editorial. See data/facts.json and data/policies.json</small></footer>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="app.js"></script>
 </body>
